@@ -1,0 +1,102 @@
+body {
+    background-color: #191919;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.file-container {
+    margin-top: 20px;
+}
+
+.file-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #555;
+    border-radius: 1%;
+}
+
+.file {
+    background-color: #333;
+    padding: 10px;
+    margin: 2% 1%; /* Ajuste del margen para reducir el espacio horizontal */
+    border-color: azure;
+    border-radius: 5%;
+    align-items: center;
+    flex-basis: calc(25% - 4%); /* Ancho máximo de 25% menos el espacio entre elementos */
+}
+
+.file img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+    cursor: pointer; /* Agregar cursor de puntero al pasar sobre la imagen */
+}
+
+.buttons {
+    margin-top: 20px;
+    
+}
+
+.buttons li {
+    display: inline; /* Hacer que los elementos de la lista se muestren en línea */
+}
+
+.buttons a {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none; /* Quitar la decoración de subrayado */
+    
+}
+
+.buttons a:hover {
+    background-color: #555;
+}
+
+.sub-buttons {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sub-buttons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sub-buttons a {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sub-buttons a:hover {
+    background-color: #555;
+}
